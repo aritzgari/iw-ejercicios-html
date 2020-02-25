@@ -1,94 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ejercicio 02</title>
+	<title>Ejercicio 03</title>
 </head>
 <body>
-      <h1>Centro Educativo Egibide</h1>
-		<h2> Historia</h2>
-		    <p> rhufgquiwfkuqwhrguhwgweirhewuivriorghweiorghoeirg gerwgewg
-            blb lslkwfjhq fhqweuifhiwufwqefweifhiwqfqwef ijwefiowqfeefwqfwqef. </br>  
-            wqefkjhwqekfhukehfi qwhefhjweifhwqoiefjh wqoiefhiwhe fiohwqefiohwqio efhiowqefh 
-            qwefuhqweuf hiuwhefiu </br>qwefwfwqefwefwqefwefqwef qwefoqwiefhkwuhefuwefh
-            ewfgqwefk w3k4pfiwhkjfhwek qwiehfuiwhruifhweurhqhefiwej </br>qwejfhhwqekfhkuwheqwefoihiwqhefiuhwqefwqefwef
-            wefqiwhefuhq wiefuiewgegrethwherhterhtuqwehf</p>
-            
-        <h2> Oferta educativa</h2>
-        <p>La oferta educativa de egibide puede resumirse en la siguiente: </p>
-        
-        <img  src = "ofertaeducativa.png" width="500px" height="500px">
-        <p>Para más información click en este <a href= "https://notepad-plus-plus.org/downloads/"> Enlace</a></p>
-        <h2>5 Campus</h2>
-        <p>Estos son los diversos centros de egibide</p>
-        <ul>
-            <li>Arriaga
-                <ul>
-                    <li>Educadores: 85</li>
-                    <li>Estudiantes: 5400</li>
-                </ul>
-            </li>
-            <li>Jesús obrero
-                <ul>
-                    <li>Educadores: 85</li>
-                    <li>Estudiantes: 5400</li>
-                </ul>
-            </li>
-            <li>Nieves cano
-                <ul>
-                    <li>Educadores: 85</li>
-                    <li>Estudiantes: 5400</li>
-                </ul>
-            </li>
-            <li>Molinuevo
-                <ul>
-                    <li>Educadores: 85</li>
-                    <li>Estudiantes: 5400</li>
-                </ul>
-            </li>
-            <li>Mendizorrotza
-                <ul>
-                    <li>Educadores: 85</li>
-                    <li>Estudiantes: 5400</li>
-                </ul>
-            </li>
-        </ul>
+<table width="40%" align="center">
+<tr>
+<td>
+    <h1>Reserva de la sociedad</h1>
+    <p>Rellena el siguiente formulario para reservar la sociedad para un dia en concreto</p>
+    <form>
+    
+    <fieldset> 
+        <legend>Datos del usuario</legend>
+        Nombre: <input type="text"><br>
+        </br>
+        ¿Eres socio?</br>
+        </br>
+        <input type="radio" name="Socio" value="si" checked> Si, soy socio.
+        </br>
+        <input type="radio" name="Socio" value="no"> No, no soy socio.<br>
+        </br>
+        Email: <input type="text"><br>
+        </br>
+        Contraseña<input type="password"><br>
+        </br>
+    </fieldset>
+    <fieldset>
+        <legend>Datos de la reserva</legend>
+        Edad: 
+        <select id="groups" name="groups"> Select 
+            <option selected>Menor de 18</option>
+            <option>Mayor de 18</option>
+        </select><br><br>
 
-<h2>Contactos</h2>
+        Seleccione fecha y hora de reserva:<br>
+        <input type="date">
+        <input type="time"><br><br>
+        <textarea name="textarea" rows="10"cols="40">Comentario</textarea><br>
+    </fieldset>
+    <br>
+    <input type="checkbox"> Acepto las condiciones
+    <br><br>
+    <input type="submit"> 
+    
 
-<table>
-    <thead>
-      <tr>
-        <td> <b>Nombre</b> </td>
-        <td> <b>Dirección</b> </td> 
-        <td> <b>Teléfono</b> </td>
-        <td> <b>Email</b> </td>
-    </tr>
-    </thead>
-    <tr>
-      <td> Arriaga </td>
-      <td> calle aleatoria de vitoria </td>
-      <td> 666666666 </td>
-      <td> estoeselcorreodearriaga@egibide.org </td>
-    </tr>
-    <tr>
-        <td> Jesus Obrero </td>
-        <td> calle aleatoria de vitoria </td>
-        <td> 666666666 </td>
-        <td> estoeselcorreodetxus@egibide.org </td>
-    </tr>
-    <tr>
-        <td> Jesus Obrero </td>
-        <td> calle aleatoria de vitoria </td>
-        <td> 666666666 </td>
-        <td> estoeselcorreodetxus@egibide.org </td>
-      </tr>
-      <tr>
-        <td> Jesus Obrero </td>
-        <td> calle aleatoria de vitoria </td>
-        <td> 666666666 </td>
-        <td> estoeselcorreodetxus@egibide.org </td>
-      </tr>
-  </table>
-
+</td> 
+</tr>
+</table>
+</div>
+</form>
 </body>
 </html>
